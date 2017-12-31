@@ -1,0 +1,96 @@
+
+body, .container{
+	font: 20px Raleway, sans-serif;
+}
+.jumbotron{
+	background-color: #221100;
+	color: #f0f0ee;
+	text-align: center;
+	
+}
+.panel-default > .panel-heading {
+  background: #FCA64F;
+}
+.panel-body{
+	background: #FFE5CC;
+}
+.commercial, .content{
+	padding-top: 75px;
+	padding-left: 25%;
+	padding-right: 25%;
+	line-height: 4;
+	
+}
+.content{
+	text-align: left;
+}
+.commercial{
+	text-align: right;
+	padding-bottom: 100px;
+}
+.commercial p, .content p{
+	text-indent: 10%;
+}
+ul{
+	list-style: none;
+	line-height: 3.5;
+}
+.btn{
+	background-color: #A85400;
+}
+.btn:hover{
+	background-color: #972;
+}
+.btn:checked{
+	background-color: #630;
+}
+.btn:focus{
+	background-color: #630;
+}
+#peekABoo{
+	padding-bottom: 75px;
+}
+/* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      height: 400px;
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 100%;
+    }
+    .carousel img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      min-height: 100%;
+      
+    }
+
+    .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	  padding-bottom: 10px;
+    }
+    .btn {
+      margin-top: 10px;
+    }
