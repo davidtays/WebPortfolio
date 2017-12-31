@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- Author: David Tays 
+     Date:  12/26/17  
+     Desc:  skillz
+-->
+
+
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+        <meta name="description" content="demonstration">
+        <meta name="keywords" content="">
+        <meta name="author" content="David Tays">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>The &quot;Dave Tays&quot;</title>
+    </head>
+    <body>
+			<!-- *******************Navbar******************************* -->
+				<nav class="navbar navbar-inverse"> <!-- ***********black navbar************** -->
+				  <div class="container">
+					<div class="navbar-header"> 
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><!-- ***********changes layout for small screens ('navbar-toggle')*********** -->
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					  </button>
+					  <a class="navbar-brand" href="#">Me</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+					  <ul class="nav navbar-nav navbar-right">
+						<li><a href="#">WHO</a></li>
+						<li><a href="#">WHAT</a></li>
+						<li><a href="#">WHERE</a></li>
+					  </ul>
+					</div>
+				  </div>
+				</nav>
+            <div class="container-fluid">
+				
+                <div class="jumbotron">
+					<img src="images/header1.jpg" class="img-responsive center-block" style="width:75%" alt="Image">
+                    <h1>Meet Dave Tays</h1>      
+                    <p>Welcome! I've been hoping you'd check out my Portfolio page</p>
+                </div>
+				
+				<main class="container-fluid text-center">
+					<h2>WHO</h2> <!-- ***********collapsible panel that uses the data-parent to close panels when one is opened*********** -->
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Driven, Curious, Caring</a>
+							</h4>
+						  </div>
+						  <div id="collapse1" class="panel-collapse collapse">
+							<div class="panel-body">Every day that I wake up, I am driven to be better than I was the previous day.  Although I am self-motivated, working with a team gives me a little extra incentive to put my best efforts forward.</div>
+						  </div>
+						</div>
+						<div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Father, Husband, Programmer</a>
+							</h4>
+						  </div>
+						  <div id="collapse2" class="panel-collapse collapse">
+							<div class="panel-body">Lincoln Nebraska is where I was born.  It is also the town in which I became a husband and father and programmer.  Go Big Red!</div>
+						  </div>
+						</div>
+						<div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">'Outdoorsy', 'Indoorsy'</a>
+							</h4>
+						  </div>
+						  <div id="collapse3" class="panel-collapse collapse">
+							<div class="panel-body">In my spare time, I like to do all the outdoor activities that I can.  I like camping, sports, and even mowing my yard.  On the other hand, I enjoy board games, video games and coding.</div>
+						  </div>
+						</div>
+					</div> 
+					<div class="content">
+						<h2>Professional, Responsible, and Punctual</h2>
+						<p>
+							Before finding out that I am a programmer, I found out a lot of things about my work-ethic and drive.  Since I have many interests, I have many talents.  Most of these interests and talents involve creation and the more challenging the better.  This is how I ended up falling for web design and development.  It is a possibility that I may be one of the more energetic people that you meet in the morning, which is why I am usually early to work.  I am always ready to learn and stay driven to produce quality deliverables
+						</p>
+					</div>
+					<div class="commercial">
+						<h2>Commercial</h2>
+						<p>
+							In June of 2017, I received an Associates of Applied Science with a focus in Applications/Web Programming.  Currently, I am in the process of achieving a bachelor degree at Bellevue University.  I would love to secure a career in a team environment where I can further develop my skills while contributing to a reputable company.  My greatest asset is a constant drive to achieve and given the opportunity I could be a productive team member for your company. 
+						</p>
+					</div>
+					<div class="row"> <!-- ***********Uses columns of bootstrap to place content*********** -->
+						<div class="col-md-6">
+						  <div class="col-md-12">
+							  <h2>WHAT DO YOU LIKE IN AN EMPLOYEE?</h2>
+							  <ul>
+								<li>Energy</li>
+								<li>Punctuality</li>
+								<li>Drive</li>
+								<li>Professionalism</li>
+								<li>Teachable</li>
+							  </ul>
+						  </div>
+						</div>
+						<div class="col-md-6"> 
+						  <div class="col-md-12">
+							  <h2>MY LIKES</h2>
+							  <div class="carousel slide" id="myCarousel">
+								  <div class="carousel-inner">
+									<div class="item active">
+									  <img src="images/paintball.jpg">
+									  <div class="container">
+										
+									  </div>
+									</div>
+									<div class="item">
+									  <img alt="" src="images/camping.jpg">
+									  <div class="container">
+										
+									  </div>
+									</div>
+									<div class="item">
+									  <img alt="" src="images/coding.jpg">
+									  <div class="container">
+										
+									  </div>
+									</div>
+								  </div>
+								  <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+								  <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+								</div><!-- .carousel -->
+						  </div>
+						</div>
+						
+					  </div>
+					<h2>Learn More About the Author</h2> 
+				    <p>
+						Click on the button to "Learn More About the Author."
+					</p>
+				    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#peekABoo">Check me out!</button>
+					  <div id="peekABoo" class="row collapse"> <!-- ***********Collapsible div that uses columns of bootstrap*********** -->
+						<div class="col-sm-4">
+						  <h3>Camping</h3>
+						  <p>There is nothing like camping and only getting back what you put out.  Less is better when packing for a camping trip, in my opinion.  Buying logs in town is not allowed, electronics are frowned upon, and plumbing is debatable.  Just kidding, plumbing is for the city!</p>
+						  <img src="images/camping.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+						</div>
+						<div class="col-sm-4"> 
+						  <h3>Paintball</h3>
+						  <p>When I am in the middle of a paintball match, I am shooting at the opponent/s, but am competing with myself.  Failure is not an option!  When being shot at with the big guns, the pressure is a bit high, but you get used to it and it helps to drive you.</p>
+						  <img src="images/paintball.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+						</div>
+						<div class="col-sm-4"> 
+						  <h3>Coding</h3>
+						  <p>Learning to create my own sites is one of the best accomplishments that I have ever achieved.  The enjoyment that I experience throughout the creation of a website is plenty enough to drown the frustration that I experience when creating a website.</p>
+						  <img src="images/coding.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+						</div>
+					  </div>
+				</main>
+				<footer class="container-fluid text-center" >
+					<img src="images/portfolioFooter.PNG" width="1140" height="150">   
+				</footer>
+            </div>
+			
+    </body>
+
+</html>
