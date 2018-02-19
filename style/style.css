@@ -6,7 +6,7 @@ body, .container{
 	background-color: #221100;
 	color: #f0f0ee;
 	text-align: center;
-	
+	margin-bottom: 0;
 }
 .panel-default > .panel-heading {
   background: #FCA64F;
@@ -35,8 +35,20 @@ body, .container{
 	list-style: none;
 	line-height: 3.5;
 }
+#resumeHead{
+	background: #FCA64F;
+	margin-top: 0;
+}
 #resume ul{
+	font-size: .8em;
 	list-style: none;
+}
+#experience{
+	background: #FCA64F;
+}
+#experience ul{
+	font-size: .8em;
+	text-align: left;
 }
 .btn{
 	background-color: #A85400;
@@ -52,6 +64,9 @@ body, .container{
 }
 #peekABoo{
 	padding-bottom: 75px;
+}
+footer{
+	width: 100%;
 }
 /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */
