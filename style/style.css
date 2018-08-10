@@ -77,7 +77,7 @@ footer{
     }
 
     .carousel .container {
-      height: 400px;
+      height: 300px;
       position: relative;
       z-index: 9;
     }
@@ -92,6 +92,7 @@ footer{
     }
 
     .carousel .item {
+	
       height: 100%;
     }
     .carousel img {
